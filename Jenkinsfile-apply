@@ -1,6 +1,6 @@
 pipeline {
   triggers {
-    //FIX-ME
+    cron ('H/2 * * * *')
   }
   options {
     disableConcurrentBuilds()
